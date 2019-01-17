@@ -1,0 +1,184 @@
+body{
+  background:lightgrey;
+}
+
+/* RELOJ */
+.widget {
+  display: inline-block !important;
+}
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.contenedor
+.fecha {
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  font-size: 3rem;
+  padding: 20px;
+  width: 100%;
+}
+.reloj {
+  width: 100%;
+  font-size: 6rem;
+}
+.reloj .cajaSegundos {
+  display: inline-block;  
+}
+.reloj .ampm, .reloj .segundos{
+  display: inline-block;
+  font-size: 4rem;
+}
+
+/* Navbar */
+.navbar{
+  min-height: 33px !important;
+  margin-bottom:21px;
+  border-radius:0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+  padding-top:6px !important;
+  padding-bottom:0 !important;
+  height: 33px;
+}
+
+.navbar-default {
+  background-color: #1087f7;
+  border-color: #1087f7;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #1087f7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #1087f7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1087f7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1087f7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+
+/* Custom */
+.color-principal, .panel-default > .panel-heading{
+  background-color: #1087f7 !important;
+  border-color: #1087f7 !important;
+  color:#ffffff !important;
+}
+.logo{
+  position: relative;
+  bottom: 7px;
+}
+
+
+/* Header */
+#header{
+  background:#282828;
+  color:#ffffff;
+  padding-bottom: 10px;
+}
+
+#header .crear{
+  padding-top: 20px;
+}
+
+.navbar-collapse {
+  padding-right: -1px !important;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+  background:#cccccc;
+  color:#3f3b3b;
+}
+
+.breadcrumb a{
+  color:#3f3b3b;
+}
+
+/* Progress Bars */
+.barra-progreso{
+  background:#333333;
+  color:#ffffff;
+}
+
+.dash-box{
+  text-align:center;
+}
+
+#login{
+  margin-top:30px;
+}
+
+/* Footer */
+#footer{
+  background:whitesmoke;;
+  color:#ffffff;
+  text-align:center;
+  padding:40px;
+  margin-top:10px;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  margin-left: 0 !important;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
+@media (max-width: 770px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #1087f7;
+  }
+}

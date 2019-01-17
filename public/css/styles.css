@@ -1,0 +1,566 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* BACKGROUND */
+.backdrop {
+  background: linear-gradient(to bottom right, #5e5e5e 0%, #ffffff 100%);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: auto;
+}
+/* CONTAINER */
+.login-form-container {
+  max-width: 400px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  top: 150%;
+  left: 35%;
+}
+.login-form-container a {
+  text-decoration: none;
+  color: #ccc;
+}
+.forgot-password:hover {
+  color: #444;
+}
+/* CONTENT */
+.login-form-content {
+  background-color: #ffffff;
+  padding: 25px 25px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 2px #444);
+}
+.login-form-content i {
+  width: 30px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/* HEADER */
+.login-form-header {
+  text-align: center;
+}
+.login-form-header img {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 50px;
+}
+.login-form-header h3 {
+  font-weight: lighter;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+/* FROM INPUT */
+.login-form .input-container {
+  border-bottom: 1px solid #cccccc;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #9e9e9e;
+  padding-bottom: 5px;
+}
+.login-form .input {
+  border: 0;
+  width: 200px;
+}
+.login-form .input:focus {
+  outline: none;
+}
+#show-password {
+  float: right;
+  vertical-align: bottom;
+  text-align: center;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.login-form .forgot-password {
+  float: right;
+}
+.login-form .rememberme-container {
+  margin-top: 15px;
+  padding: 0;
+}
+.login-form .rememberme-container input {
+  margin-left: 0;
+}
+.login-form .rememberme span {
+  vertical-align: top;
+}
+.login-form .button {
+  margin-top: 15px;
+  width: 100%;
+  background: #2e7ec7;
+  border: 0;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.login-form .button:hover {
+  background: #1f6eb7;
+}
+.login-form .button:focus {
+  outline: none;
+}
+.login-form .register {
+  margin-top: 5px;
+  background: #dadada;
+  border: 0;
+  color: #676464;
+  padding: 9px;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+.login-form .register:hover {
+  background: #d0d0d0;
+}
+
+/* SEPARATOR */
+.login-form-content .separator {
+  margin: 20px 0;
+  border-top: 1px solid #cccccc;
+  position: relative;
+}
+.login-form-content .separator-text {
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -22px;
+  padding: 0px 10px;
+  background: #ffffff;
+  color: #8a8a8a;
+}
+.socmed-login {
+  text-align: center;
+}
+/* SOCIAL MEDIA LOGIN */
+.socmed-login .socmed-btn {
+  padding: 10px 25px;
+  color: #ffffff;
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media screen and (max-height: 600px) {
+  .login-form-container {
+    margin-top: 0 !important;
+    top: 10px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .login-form-container {
+    left: 5px;
+    margin-left: 5px;
+    min-width: 283px;
+    right: 10px;
+    margin-bottom: 10px;
+    width: auto;
+  }
+  .login-form .input {
+    width: 140px;
+  }
+  .socmed-login .socmed-btn i {
+    margin-right: 5px;
+    width: 19px;
+  }
+}
+.icofont{
+  font-size: 20px;
+}
+form button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 1;
+  background-color: rgb(175, 175, 175);
+  border: 0;
+  padding: 10px 15px;
+  color: #000000;
+  border-radius: 3px;
+  width: 350px;
+  cursor: pointer;
+  font-size: 22px;
+  transition-duration: 0.25s;
+}
+form button:hover {
+  background-color: #3eb5da;
+  color: #fffbfb;
+}
+
+.img-container{
+  display: flex;
+  background-repeat: no-repeat;
+  }   
+
+.text-title{
+  font-weight: 500 !important;
+}
+.text-subtitle{
+   font-weight: 500 !important;
+}
+.margen{
+  margin-bottom: 0 !important;
+}
+.container {
+  padding-right: 15px !important;
+  margin-right: auto !important;
+}
+.item{
+  color: #000000 !important;
+
+}
+
+.item:hover{
+  color: #1f6eb7 !important;
+}
+
+a.link{
+  color: #0686fd !important;
+}
+
+a.link:hover{
+  color: #06c7e9 !important;
+ text-decoration: none !important;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  margin-top: 1.2rem!important;
+}
+footer .copyright {
+  margin-top: 1rem;
+  width: 100%;
+  float: center;
+}
+.footer-container{
+  position: relative;
+  display: inline-block;
+}
+@media (min-width: 0px) and (max-width: 448px)  {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 4%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logop.png);
+  position: relative;
+  top: 12px;
+  background-position-x: 6rem;
+  width: 500px;
+  height: 280px;
+  }     
+} 
+@media (min-width: 449px) and (max-width: 499px)  {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 10%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logop.png);
+  position: relative;
+  top: 12px;
+  background-position-x: 8rem;
+  width: 500px;
+  height: 280px;
+  }     
+} 
+@media (min-width: 500px) and (max-width: 549px)  {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 11%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logom.png);
+  position: relative;
+  top: 4rem;
+  background-position-x: 2rem;
+  width: 500px;
+  height: 280px;
+  }     
+} 
+ 
+@media (min-width: 550px) and (max-width: 599px)  {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 15%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logom.png);
+  position: relative;
+  top: 4rem;
+  background-position-x: 3rem;
+  width: 500px;
+  height: 280px;
+  }     
+} 
+
+@media (min-width: 600px) and (max-width: 650px) {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 18%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logom.png);
+  position: relative;
+  top: 4rem;
+  background-position-x: 3rem;
+  width: 720px;
+  height: 280px;
+  }     
+}   
+
+@media (min-width: 650px) and (max-width: 700px) {
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 22%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logom.png);
+  position: relative;
+  top: 4rem;
+  background-position-x: 3.5rem;
+  width: 730px;
+  height: 290px;
+  }     
+}   
+@media (min-width: 701px) and (max-width: 768px) {
+  .container {
+    max-width: 725px !important;
+}
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 22%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logog.png);
+  position: relative;
+  top: 4rem;
+  width: 730px;
+  height: 290px;
+  }     
+}   
+@media (min-width: 769px) and (max-width: 800px) {
+  .container {
+    max-width: 725px !important;
+}
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 26%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logog.png);
+  position: relative;
+  top: 4rem;
+  width: 730px;
+  height: 290px;
+  }     
+}  
+@media (min-width: 801px) and (max-width: 850px) {
+  .container {
+    max-width: 725px !important;
+}
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 27%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logog.png);
+  position: relative;
+  top: 4rem;
+  width: 730px;
+  height: 290px;
+  }     
+}    
+@media (min-width: 851px) and (max-width: 899px) {
+  .container {
+    max-width: 725px !important;
+}
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 28%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logog.png);
+  position: relative;
+  top: 4rem;
+  width: 730px;
+  height: 290px;
+  }     
+}    
+
+@media (min-width: 900px) and (max-width: 1199px){
+  .container {
+    max-width: 725px !important;
+}
+  .login-form-container {
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    top: 150%;
+    left: 30%;
+    margin-top: 30px;
+}
+  .img-container{
+  background-image: url(../images/logog.png);
+  position: relative;
+  top: 4rem;
+  width: 730px;
+  height: 290px;
+  } 
+  .footer .copyright {
+    width: 100%;
+  }
+  .footer .copyright span {
+    padding-left: 10%;
+    color: white;
+    font-size: 0.7em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  .footer .copyright span {
+    text-align: center;
+    padding: 0;
+  }    
+  }
+  @media (min-width: 1200px) and (max-width: 1399px){
+    .container {
+      max-width: 725px !important;
+  }
+    .login-form-container {
+      max-width: 400px;
+      width: 100%;
+      z-index: 1;
+      position: relative;
+      top: 150%;
+      left: 34%;
+      margin-top: 30px;
+  }
+    .img-container{
+    background-image: url(../images/logog.png);
+    position: relative;
+    top: 4rem;
+    width: 730px;
+    height: 290px;
+    }   
+    .footer .copyright {
+      width: 100%;
+    }
+    .footer .copyright span {
+      padding-left: 10%;
+      color: white;
+      font-size: 0.7em;
+      line-height: 70px;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    .footer .copyright span {
+      text-align: center;
+      padding: 0;
+    }  
+    }
+  @media (min-width: 1400px) and (max-width: 2100px){
+     
+    .container {
+      max-width: 725px !important;
+  }
+    .login-form-container {
+      max-width: 400px;
+      width: 100%;
+      z-index: 1;
+      position: relative;
+      top: 150%;
+      left: 38%;
+      margin-top: 30px;
+  }
+    .img-container{
+    background-image: url(../images/logog.png);
+    position: relative;
+    top: 2rem;
+    width: 730px;
+    height: 290px;
+    }    
+      .footer .copyright {
+        width: 100%;
+      }
+      .footer .copyright span {
+        padding-left: 10%;
+        color: white;
+        font-size: 0.7em;
+        line-height: 70px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+      }
+      .footer .copyright span {
+        text-align: center;
+        padding: 0;
+      }
+      }
+
+     
